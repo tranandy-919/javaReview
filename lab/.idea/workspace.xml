@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11e003cc-01fd-4be9-a4a2-29c287eefc1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hr/personnel/DepartmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hr/personnel/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hr/personnel/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hr/personnel/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hr/personnel/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hr/personnel/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hr/personnel/SalariedEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hr/personnel/client/HRClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hr/personnel/client/HRClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hr/personnel/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hr/personnel/DepartmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="com.hr.personnel" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentTest">
+  <component name="RunManager" selected="Application.HRClient">
     <configuration name="HRClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hr.personnel.client.HRClient" />
       <module name="lab1" />
@@ -120,10 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HRClient" />
         <item itemvalue="JUnit.DepartmentTest" />
         <item itemvalue="JUnit.DepartmentTest.letEmployeesWorkAndReturnNumberOfEmployeesWhoWorked" />
         <item itemvalue="JUnit.DepartmentTest.addEmployee" />
-        <item itemvalue="Application.HRClient" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706034308785</updated>
-      <workItem from="1706034311015" duration="553000" />
+      <workItem from="1706034311015" duration="1673000" />
     </task>
     <servers />
   </component>

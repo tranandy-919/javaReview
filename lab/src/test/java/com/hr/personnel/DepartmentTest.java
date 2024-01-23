@@ -13,8 +13,9 @@ class DepartmentTest {
 
     @BeforeEach
     void setUp() {
-        employee = new SalariedEmployee
-                ("Andy", LocalDate.of(2020, 8, 20));
+        employee = new HourlyEmployee
+                ("Andy", LocalDate.of(2020, 8, 20),
+                        30.0, 160);
         department = new Department("Software", "Seattle");
         department.addEmployee(employee);
     }
