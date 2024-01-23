@@ -11,11 +11,20 @@ public class Department {
         this.location = location;
     }
 
-    public void addEmployee(Employee employee) {
+    public int getCurrentIndex() {
+        return currentIndex;
+    }
 
+    public void addEmployee(Employee employee) {
+        employees[currentIndex] = employee;
+        currentIndex++;
     }
 
     public int letEmployeesWorkAndReturnNumberOfEmployeesWhoWorked() {
-        return 0;
+        int count = 0;
+        while(count < currentIndex) {
+            count++;
+        }
+        return count;
     }
 }
