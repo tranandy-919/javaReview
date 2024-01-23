@@ -29,4 +29,20 @@ public class HourlyEmployee extends Employee {
     public void setHourlyRate(double hourlyRate) {
         this.hourlyRate = hourlyRate;
     }
+
+    @Override
+    public double computeMonthlyCompensation() {
+        return hourlyRate * hoursWorkedPerMonth;
+    }
+
+    @Override
+    public String getEmployeeInfo() {
+        return hoursWorkedPerMonth + " hours a month at " + hourlyRate + " an hour " + "name = " +
+                getName() + " hireDate = " + getHireDate();
+    }
+
+    @Override
+    public double computeMonthlyTaxToPay() {
+        return computeMonthlyCompensation() * HOURLY_TAX_RATE;
+    }
 }

@@ -30,4 +30,9 @@ class DepartmentTest {
         int count = department.letEmployeesWorkAndReturnNumberOfEmployeesWhoWorked();
         assertEquals(1, count);
     }
+
+    @Test
+    void computeDepartmentMonthlyTotalCompensation_shouldReturnValidInfo () {
+        assertEquals(4800, department.computeDepartmentMonthlyTotalCompensation());
+    }
 }

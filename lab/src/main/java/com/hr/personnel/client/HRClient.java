@@ -16,7 +16,7 @@ public class HRClient {
         Employee emp2 = new HourlyEmployee
                 ("Mai", LocalDate.of(2002, 2, 2),
                         55.0, 120);
-        
+
         Employee emp3 = new SalariedEmployee
                 ("Mac", LocalDate.of
                         (2003,  3, 3), 4000);
@@ -28,5 +28,8 @@ public class HRClient {
 
         int count = department.letEmployeesWorkAndReturnNumberOfEmployeesWhoWorked();
         System.out.println(count);
+
+        double deptSal = department.computeDepartmentMonthlyTotalCompensation();
+        System.out.println(deptSal);
     }
 }

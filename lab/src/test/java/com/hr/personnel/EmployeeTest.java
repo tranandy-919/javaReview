@@ -12,10 +12,9 @@ class EmployeeTest {
     private Employee employee;
     @BeforeEach
     public void setUp() throws Exception {
-         employee = new Employee(
+         employee = new HourlyEmployee(
                 "Andy", LocalDate.of
-                (2020, 8, 20));
-        System.out.println("before");
+                (2020, 8, 20), 30.0, 100);
     }
 
     @Test
